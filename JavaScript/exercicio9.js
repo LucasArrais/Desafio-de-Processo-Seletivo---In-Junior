@@ -88,9 +88,9 @@ function authors(booksByCategory) {
         }
     }
     
-    const uniqueAuthors = [...new Set(autores)];
+    const autoresunicos = [...new Set(autores)];
     
-    return uniqueAuthors;
+    return autoresunicos;
 }
 
 console.log(authors(booksByCategory));
